@@ -1,0 +1,124 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    padding: 0;
+    margin: 0;
+}
+
+#colorBlue{
+    background-color: aqua;
+}
+
+#colorOrange{
+    background-color: orange;
+}
+
+#colorGreen{
+    background-color: green;
+}
+
+#colorWhite{
+    background-color: rgb(250, 219, 219);
+}
+
+/* Menu */
+
+.menu {
+    background-color: cyan;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+.menu>nav{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu>nav>ol {
+    display: grid;
+    grid-template-columns: 5% 5% 7% 7% 10% 6%;
+    list-style: none;
+}
+
+.menu>nav>ol>li {
+    padding: 6%;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+.menu>nav>ol>li>a{
+    font-size: xx-large;
+} 
+
+.logo{
+    margin-right: 10%;
+    border-style: solid;
+    border-width: 0.5px;
+    background-color: white;
+    padding: 1%;
+}
+
+/* Center */
+
+.center{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    "first second fourth fifts"
+    "third third fourth fifts" 
+    ;
+   
+}
+
+.center>div{
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+.first{
+grid-area: first;
+margin-right: 5%;    
+}
+
+.second{
+    grid-area: second;
+    margin-right: 5%;    
+}
+
+.third{
+grid-area: third;
+margin-right: 2.5%;
+}
+
+.fourth{
+    grid-area: fourth;
+    margin-right: 5%;
+}
+
+.fifts{
+    grid-area: fifts;
+}
+
+/* End */
+
+.end{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+.endlogo{
+    margin-left: 10%;
+    border-style: solid;
+    border-width: 0.5px;
+    background-color: white;
+    padding: 1%;
+}
