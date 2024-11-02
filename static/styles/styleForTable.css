@@ -1,0 +1,163 @@
+body {
+    display: table;
+    padding: 0;
+    margin: 0;
+}
+
+#colorBlue {
+    background-color: aqua;
+    text-align: center;
+    font-size: large;
+}
+
+#colorOrange {
+    background-color: orange;
+    text-align: center;
+    font-size: large;
+}
+
+#colorGreen {
+    background-color: aquamarine;
+    text-align: center;
+    font-size: large;
+}
+
+#colorWhite {
+    background-color: white;
+    text-align: center;
+    font-size: large;
+}
+
+/* Menu */
+.menu {
+    display: table-row;
+    background-color: cyan;
+}
+
+.menu>nav{
+    display: table;
+    height: 150px;
+    width: 100%;
+    border: 0.5px solid;
+}
+
+.pages{
+display: table-cell;
+width: 80%;
+}
+
+.menu>nav>div>ol{
+    display: table;
+}
+.menu>nav>div>ol>li{
+    width: 14%;
+    display: table-cell;
+    padding: 2%;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+.menu>nav>div>ol>li>a{
+    font-size: xx-large;
+} 
+
+.logo {
+    display: table-cell;
+    padding: 1%;
+}
+
+.logo>h2{
+    border: solid;
+    background-color: white;
+    border-width: 0.5px;
+    height: 40%;
+}
+
+/* Center */
+.center{
+    display: table-row;   
+}
+
+.centerPos{
+    display: table;
+}
+
+.centerPos>div{
+    padding: 2%;
+}
+
+.first{
+    display: table-cell;
+    padding: 2%;
+}
+
+.second{
+    display: table-cell;
+    padding: 2%;
+}
+
+.third{
+    display: table;
+    width: 100%;
+    
+}
+.third>div{
+    display: table-cell;
+    width: 50.3%;
+}
+
+.empty{
+    display: table;
+}
+
+.empty>div{
+    display: table-cell;
+    padding: 2%;
+}
+
+.fourth{
+    display: table-cell;
+    padding: 2%;
+}
+
+.fifts{
+    display: table-cell;
+    padding: 2%;
+}
+
+
+/* End */
+.end {
+    display: table-row;
+    width: 100%;
+    height: 150px;
+}
+
+.endPos{
+display: table;
+border: 0.5px solid;
+}
+
+.endPos>div{
+    display: table-cell;
+}
+
+.endText{
+    width: 80%;
+}
+
+#textsize {
+    padding: 2%;
+    font-size: large;
+}
+
+.endlogo {
+    text-align: center;
+    padding: 1%;
+}
+
+.endlogo>h2{
+    border: solid;
+    background-color: white;
+    border-width: 0.5px;
+}

@@ -1,7 +1,6 @@
 body{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr;
     padding: 0;
     margin: 0;
 }
@@ -15,12 +14,13 @@ body{
 }
 
 #colorGreen{
-    background-color: green;
+    background-color: aquamarine;
 }
 
 #colorWhite{
-    background-color: rgb(250, 219, 219);
+    background-color: white;
 }
+
 
 /* Menu */
 
@@ -63,6 +63,11 @@ body{
 }
 
 /* Center */
+.center>div{
+    padding: 30px;
+    font-size: large;
+}
+
 
 .center{
     display: grid;
@@ -113,6 +118,12 @@ margin-right: 2.5%;
     align-items: center;
     border-style: solid;
     border-width: 0.5px;
+}
+
+#textsize{
+    padding: 30px;
+    margin: 0;
+    font-size: large;
 }
 
 .endlogo{
